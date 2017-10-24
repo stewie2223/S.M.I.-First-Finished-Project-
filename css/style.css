@@ -169,8 +169,8 @@ h4 {
 .slide {
     animation-name: slide;
     -webkit-animation-name: slide;
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-duration: 2.5s;
     visibility: visible; 
 }
 
@@ -185,6 +185,7 @@ h4 {
     }
 }
 
+/*
 @-webkit-keyframes slide {
     0% {
         opacity: 0;
@@ -195,7 +196,7 @@ h4 {
         -webkit-transform: translateY(0%);
     }
 }
-
+*/
 @media screen and (max-width: 768px) {
     .col-sm-4 {
         text-align: center;
